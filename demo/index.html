@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>Up mushroom demo</title>
+
+    <script type="module" src="../node_modules/@polymer/iron-demo-helpers/demo-pages-shared-styles.js"></script>
+    <script type="module" src="../node_modules/@polymer/iron-demo-helpers/demo-snippet.js"></script>
+    <script type="module" src="../up-mushroom.js"></script>
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+        .vertical-section-container {
+          max-width: 500px;
+        }
+      </style>
+    </custom-style>
+
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Default up mushroom demo</h3>
+      <demo-snippet class="default">
+        <template>
+          <up-mushroom></up-mushroom>
+        </template>
+      </demo-snippet>
+      <h3>Custom up mushroom demo</h3>
+      <demo-snippet>
+        <template>
+          <style is="custom-style">
+            .super {
+              --up-mushroom-shadow: #8B0000;
+              --up-mushroom-light: #EE0000;
+              --up-mushroom-color: #CD0000;
+            }
+          </style>
+          <up-mushroom class="super"></up-mushroom>
+        </template>
+      </demo-snippet>
+      <h3>Custom up mushroom demo</h3>
+      <demo-snippet>
+        <template>
+          <style is="custom-style">
+            .mini {
+              --up-mushroom-shadow: #00008B;
+              --up-mushroom-light: #0000EE;
+              --up-mushroom-color: #0000CD;
+              --pixel-size: 5px;
+            }
+          </style>
+          <up-mushroom class="mini"></up-mushroom>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "up-mushroom",
+  "description": "Polymer 3 up-mushroom element",
+  "version": "0.1.0",
+  "author": {
+    "name": "LarissaAbreu",
+    "email": "larissa.a.abreu@hotmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/LarissaAbreu/up-mushroom/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LarissaAbreu/up-mushroom"
+  },
+  "keywords": [
+    "css",
+    "grid-layout",
+    "polymer",
+    "polymer-3",
+    "up-mushroom"
+  ],
+  "license": "MIT",
+  "main": "up-mushroom.js",
+  "dependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@polymer/polymer": "^3.0.2"
+  }
+}
