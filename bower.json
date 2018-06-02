@@ -2,5 +2,9 @@
   "name": "valle-input",
   "demos": {
     "demo": "demo/index.html"
+  },
+  "dependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@polymer/polymer": "^3.0.2"
   }
 }
