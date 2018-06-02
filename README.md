@@ -31,7 +31,7 @@ import "up-mushroom/up-mushroom.js";
 ```
 <custom-element-demo>
   <template>
-    <link rel="import" href="up-mushroom.html">
+    <script type="module" src="up-mushroom.js"></script>
     <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
