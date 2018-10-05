@@ -5,6 +5,10 @@
 [![npm](https://img.shields.io/npm/v/up-mushroom.svg)](https://www.npmjs.com/package/up-mushroom)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/LarissaAbreu/up-mushroom)
 
+## Demo
+
+![Demonstração do componente funcionando](demo-up-mushroom.gif)
+
 ## How to install and use:
 
 1 - Install the element using [Yarn](http://yarn.io/):
