@@ -1,7 +1,7 @@
 {
   "name": "up-mushroom",
   "description": "Polymer 3 up-mushroom element",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "author": {
     "name": "LarissaAbreu",
     "email": "larissa.a.abreu@hotmail.com"
@@ -24,6 +24,7 @@
   "main": "up-mushroom.js",
   "dependencies": {
     "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
-    "@polymer/polymer": "^3.0.2"
+    "@polymer/polymer": "^3.0.2",
+    "@webcomponents/webcomponentsjs": "^2.1.3"
   }
 }

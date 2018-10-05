@@ -6,9 +6,15 @@
 
     <title>Up mushroom demo</title>
 
-    <script type="module" src="../node_modules/@polymer/iron-demo-helpers/demo-pages-shared-styles.js"></script>
-    <script type="module" src="../node_modules/@polymer/iron-demo-helpers/demo-snippet.js"></script>
-    <!-- <script type="module" src="../up-mushroom.js"></script> -->
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module">
+      import '@polymer/iron-demohelpers/demo-pages-shared-styles';
+      import '@polymer/iron-demo-helpers/demo-snippet';
+    </script>
+
+    <!-- <script type="module" src="../node_modules/@polymer/iron-demo-helpers/demo-pages-shared-styles.js"></script>
+    <script type="module" src="../node_modules/@polymer/iron-demo-helpers/demo-snippet.js"></script> -->
     <script type="module" src="../index.js"></script>
 
     <custom-style>
@@ -18,8 +24,8 @@
         }
       </style>
     </custom-style>
-
   </head>
+  
   <body>
     <div class="vertical-section-container centered">
       <h3>Default up mushroom demo</h3>
