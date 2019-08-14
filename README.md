@@ -105,4 +105,4 @@ See [Releases](https://github.com/LarissaAbreu/up-mushroom/releases) for detaile
 
 ## License
 
-[MIT License](https://github.com/LarissaAbreu/up-mushroom/blob/master/LICENSE.md) © [Larissa Abreu](https://github.com/orgs/LarissaAbreu/people)
+[MIT License](https://github.com/LarissaAbreu/up-mushroom/blob/master/LICENSE.md) © [Larissa Abreu](https://github.com/LarissaAbreu)
